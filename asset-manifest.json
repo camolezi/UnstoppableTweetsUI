@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/UnstoppableTweetsUI/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/UnstoppableTweetsUI/static/js/main.0fbbe2e6.chunk.js",
+    "main.js.map": "/UnstoppableTweetsUI/static/js/main.0fbbe2e6.chunk.js.map",
+    "runtime-main.js": "/UnstoppableTweetsUI/static/js/runtime-main.5c932733.js",
+    "runtime-main.js.map": "/UnstoppableTweetsUI/static/js/runtime-main.5c932733.js.map",
+    "static/js/2.ddd3a414.chunk.js": "/UnstoppableTweetsUI/static/js/2.ddd3a414.chunk.js",
+    "static/js/2.ddd3a414.chunk.js.map": "/UnstoppableTweetsUI/static/js/2.ddd3a414.chunk.js.map",
+    "static/js/3.bbc27aa3.chunk.js": "/UnstoppableTweetsUI/static/js/3.bbc27aa3.chunk.js",
+    "static/js/3.bbc27aa3.chunk.js.map": "/UnstoppableTweetsUI/static/js/3.bbc27aa3.chunk.js.map",
+    "index.html": "/UnstoppableTweetsUI/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/UnstoppableTweetsUI/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.ddd3a414.chunk.js.LICENSE.txt": "/UnstoppableTweetsUI/static/js/2.ddd3a414.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c932733.js",
+    "static/js/2.ddd3a414.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.0fbbe2e6.chunk.js"
+  ]
+}
