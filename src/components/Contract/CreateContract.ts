@@ -16,13 +16,15 @@ export function CreateContract(
   return daiContract;
 }
 
-export function CreateContractWithSigner(): UnstoppableTweets | null {
+export async function CreateContractWithSigner(): Promise<UnstoppableTweets | null> {
   const anywindow = window as any;
 
   if (!anywindow.ethereum) {
     console.error("no metamask, you wont be able to create user or posts");
     return null;
   }
+
+  await anywindow.ethereum.request({ method: "eth_requestAccounts" });
 
   const provider = new ethers.providers.Web3Provider(anywindow.ethereum);
   const signer = provider.getSigner();

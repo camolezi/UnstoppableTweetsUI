@@ -19,7 +19,7 @@ const netWorkAdress =
 const HARDHAT_NETWORK_ID = "31337";
 
 async function CreateNewPostMetamask(text: string) {
-  const tweetContract = CreateContractWithSigner();
+  const tweetContract = await CreateContractWithSigner();
   if (tweetContract) await tweetContract.createNewTweet(text);
 }
 

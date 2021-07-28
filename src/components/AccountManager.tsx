@@ -11,7 +11,7 @@ type UserDetails = {
 };
 
 async function CheckUserHasAccount(): Promise<UserDetails> {
-  const tweetContract = CreateContractWithSigner();
+  const tweetContract = await CreateContractWithSigner();
   if (tweetContract) {
     const address = await tweetContract.signer.getAddress();
 
@@ -24,7 +24,7 @@ async function CheckUserHasAccount(): Promise<UserDetails> {
 }
 
 async function CreateNewUserUsingMetamask(username: string) {
-  const tweetContract = CreateContractWithSigner();
+  const tweetContract = await CreateContractWithSigner();
   if (tweetContract) await tweetContract.createNewUserName(username);
 }
 
